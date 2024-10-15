@@ -46,6 +46,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 .logo-web {
   font-weight: 700;
@@ -93,6 +94,19 @@ a {
 .contact-link:focus {
   color: #404bbf;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.wrap-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.wrap-adress {
+  display: flex;
+  gap: 40px;
+}
 
 /* ------------Hero section--------------- */
 .hero-section {
@@ -104,10 +118,11 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #ffffff;
   max-width: 496px;
   margin-bottom: 48px;
+  text-align: center;
 }
 .button {
   background-color: #4d5ae5;
