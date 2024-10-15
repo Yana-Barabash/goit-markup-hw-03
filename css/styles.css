@@ -113,10 +113,12 @@ a {
   display: flex;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  padding: 24px 0;
 }
 .wrap-nav-all {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 /* ------------Hero section--------------- */
 .hero-section {
