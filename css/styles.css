@@ -107,7 +107,11 @@ a {
   display: flex;
   gap: 40px;
 }
-
+.wrap-header {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
 /* ------------Hero section--------------- */
 .hero-section {
   background-color: #2e2f42;
@@ -123,6 +127,7 @@ a {
   max-width: 496px;
   margin-bottom: 48px;
   text-align: center;
+  margin: 0 auto;
 }
 .button {
   background-color: #4d5ae5;
