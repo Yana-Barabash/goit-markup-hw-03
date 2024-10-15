@@ -255,6 +255,7 @@ a {
   line-height: 1.17;
   color: #f4f4fd;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
@@ -263,4 +264,15 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.logo-web-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  dispalay: inline-block;
+  margin-bottom: 16px;
 }
