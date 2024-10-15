@@ -46,7 +46,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 .logo-web {
   font-weight: 700;
@@ -57,6 +56,7 @@ a {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   display: inline-block;
+  margin-right: 76px;
 }
 
 .nav-link {
@@ -102,15 +102,21 @@ a {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .wrap-adress {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .wrap-header {
   display: flex;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+}
+.wrap-nav-all {
+  display: flex;
+  align-items: center;
 }
 /* ------------Hero section--------------- */
 .hero-section {
@@ -125,9 +131,10 @@ a {
 
   color: #ffffff;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   text-align: center;
-  margin: 0 auto;
 }
 .button {
   background-color: #4d5ae5;
