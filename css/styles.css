@@ -68,6 +68,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .nav-link:hover {
   color: #404bbf;
@@ -102,7 +104,6 @@ a {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 .wrap-adress {
   display: flex;
@@ -117,7 +118,6 @@ a {
 .wrap-nav-all {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .address {
   display: flex;
@@ -279,7 +279,7 @@ a {
   row-gap: 48px;
 }
 .port-list-card {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .port-item {
   font-size: 20px;
