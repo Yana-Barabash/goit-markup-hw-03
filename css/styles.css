@@ -120,6 +120,10 @@ a {
   align-items: center;
   padding: 24px 0;
 }
+.address {
+  display: flex;
+  align-items: center;
+}
 /* ------------Hero section--------------- */
 .hero-section {
   background-color: #2e2f42;
